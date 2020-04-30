@@ -1,8 +1,8 @@
 {
-  "name": "gatsby-starter-hello-friend",
-  "description": "A simple starter for Gatsby. That's it.",
+  "name": "krishankantray",
+  "description": "Krishankant's website",
   "version": "0.2.0",
-  "author": "Radek Kozieł <radoslaw.koziel@gmail.com>",
+  "author": "Krishankant Ray <krishankant_rai@rediffmail.com>",
   "keywords": [
     "gatsby",
     "minimal",
@@ -37,6 +37,7 @@
     "prismjs": "^1.15.0",
     "prop-types": "^15.6.2",
     "react": "^16.8.0",
+    "react-cv": "^1.1.0",
     "react-dom": "^16.8.0",
     "react-helmet": "^5.2.0"
   },

@@ -7,23 +7,23 @@ const postCSSMixins = require('postcss-mixins')
 
 module.exports = {
   siteMetadata: {
-    title: `Hello Friend`,
-    description: `A simple starter for Gatsby. That's it.`,
+    title: `Krishankant Ray`,
+    description: `This is my personal website`,
     copyrights: '',
-    author: `@panr`,
+    author: `@krishankantray`,
     logo: {
       src: '',
       alt: '',
     },
-    logoText: 'hello friend',
+    logoText: 'krishankant_ray',
     defaultTheme: 'dark',
     postsPerPage: 5,
-    showMenuItems: 2,
+    showMenuItems: 3,
     menuMoreText: 'Show more',
     mainMenu: [
       {
-        title: 'About',
-        path: '/about',
+        title: 'Resume',
+        path: '/resume',
       },
       {
         title: 'Showcase',
@@ -33,6 +33,7 @@ module.exports = {
         title: 'Example',
         path: '/example',
       },
+      
     ],
   },
   plugins: [
