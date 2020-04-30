@@ -15,7 +15,7 @@ module.exports = {
       src: '',
       alt: '',
     },
-    logoText: 'krishankant_ray',
+    logoText: 'Krishankant \'s Blog',
     defaultTheme: 'dark',
     postsPerPage: 5,
     showMenuItems: 3,
@@ -26,12 +26,12 @@ module.exports = {
         path: '/resume',
       },
       {
-        title: 'Showcase',
+        title: 'Projects',
         path: '/showcase',
       },
       {
-        title: 'Example',
-        path: '/example',
+        title: 'Contact',
+        path: '/contact',
       },
       
     ],
