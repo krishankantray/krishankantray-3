@@ -1,7 +1,7 @@
 ---
 title: 'HackerRank - 101 Hack 51 -  Fair Cake Cutting '
-path: '2017-08-08T00:25:00.001+05:30'
-date: 2017-08-08T00:25:00.001+05:30
+path: '2017-08-08'
+date: "2017-08-08"
 coverImage:"../images/netlify-image.jpg"
 author: "krishankant_ray"
 excerpt: '...another problem solving example'
