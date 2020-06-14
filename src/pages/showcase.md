@@ -37,6 +37,7 @@ Basically, I just cloned [this](https://github.com/panr/gatsby-starter-hello-fri
 
 
 
+<img src="https://raw.githubusercontent.com/krishankantray/krishankantray-3/master/src/images/Vintage-Decorative-Divider.svg" width="100%" height="20" />
 
 
 
