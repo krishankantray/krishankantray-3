@@ -23,8 +23,7 @@ Once the data is saved we can see and delete the table data on the front-end.
 Detailed blog : [Click Here](https://krishankantray.com/CSV-to-SQL-import)   
 
 
-![line-break](https://raw.githubusercontent.com/krishankantray/krishankantray-3/master/src/images/Vintage-Decorative-Divider.svg =900x30)
-
+<img src="https://raw.githubusercontent.com/krishankantray/krishankantray-3/master/src/images/Vintage-Decorative-Divider.svg" width="100%" height="40%" />
 
 
 ***
