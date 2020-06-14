@@ -2,7 +2,7 @@
 title: "Projects"
 date: "2020-06-14"
 author: "krishankant_ray"
-path: "/projects"
+path: "/showcase"
 ---
 ***
 ### 📌 CSV to MySQL upload utility
