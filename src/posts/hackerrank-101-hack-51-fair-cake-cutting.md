@@ -1,11 +1,11 @@
 ---
-title: 'HackerRank - 101 Hack 51 -  Fair Cake Cutting '
-path: '2017-08-08'
+title: "HackerRank - 101 Hack 51 -  Fair Cake Cutting"
+path: "HackerRank-Fair-Cake-Cutting"
 date: "2017-08-08"
-coverImage:"../images/netlify-image.jpg"
+coverImage:"../images/main-qimg-958a1ff740b6605422011a6a7879423c.png"
 author: "krishankant_ray"
 excerpt: '...another problem solving example'
-tag:["blogspot", "cp"]
+tag:["blogspot", "cp", "problem solving"]
 ---
 
 **Problem: Fair Cake Cutting**  
@@ -56,7 +56,7 @@ In this sample case, , and . Leha wants each person to get units of cake. He has
   
 **Solutions :**  
   
-```
+```cpp
 #include <cmath>  
 #include <cstdio>  
 #include <vector>  
@@ -69,9 +69,9 @@ int main() {
     unsigned long int A,B,a,x;  
     double p;  
     cin>>A>>B>>a;  
-    p=((B\*a)/A);  
+    p=((B*a)/A);  
       
-    x\= floor(p);  
+    x= floor(p);  
     cout<<x;  
     return 0;  
 }
