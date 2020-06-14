@@ -1,8 +1,8 @@
 ---
 title: "Projects"
-date: "2018-07-17"
-author: "Hello Robot"
-path: "/showcase"
+date: "2020-06-14"
+author: "krishankant_ray"
+path: "/projects"
 ---
 ***
 ### 📌 CSV to MySQL upload utility
@@ -20,7 +20,11 @@ Once the data is saved we can see and delete the table data on the front-end.
     - ReactJS
 
 
-Detailed blog :   
+Detailed blog : [Click Here](https://krishankantray.com/CSV-to-SQL-import)   
+
+
+![line-break](https://raw.githubusercontent.com/krishankantray/krishankantray-3/master/src/images/Vintage-Decorative-Divider.svg)
+
 
 
 ***
@@ -30,8 +34,12 @@ Detailed blog :
 
 This is the same site that you are currently viewing.
 It is a JAM stack site build using Gatsby, React, GraphQL etc...
+Basically, I just cloned [this](https://github.com/panr/gatsby-starter-hello-friend) gatsby starter template.  
 
-Detailed blog :   
+
+
+
+
 
 
 ***
