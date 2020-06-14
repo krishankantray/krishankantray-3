@@ -2,9 +2,9 @@
 title: "HackerRank - 101 Hack 51 -  Fair Cake Cutting"
 path: "HackerRank-Fair-Cake-Cutting"
 date: "2017-08-08"
-coverImage:"../images/main-qimg-958a1ff740b6605422011a6a7879423c.png"
+coverImage: "../images/main-qimg-958a1ff740b6605422011a6a7879423c.png"
 author: "krishankant_ray"
-excerpt: '...another problem solving example'
+excerpt: "...another problem solving example"
 tag:["blogspot", "cp", "problem solving"]
 ---
 
