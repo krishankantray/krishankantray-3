@@ -20,9 +20,19 @@ const Resume = () => (
             </td>
         </tr>
         <tr>
-            <td align="left">💠<b> Experince : </b>
+            <td align="left">💠<b> Experience : </b>
                 <ul>
-                    <li>Application Engineer <small> [ June-2019 to present ]</small><br/>
+
+                <li>FullStack Engineer <small> [ May-2020 to present ]</small><br/>
+                        <i>BREACHLOCK</i> <br/>
+                        <ul>
+                            <li><u>Languages</u> : <small>Javascript, ReactJS, NodeJS, ExpressJS, Restify, SQL Server, MySQL </small></li>
+                            <li><u>Tools</u> : <small>Git, Postman, Jira </small></li>
+                        </ul>
+                <br/>
+                    <hr/>
+                <br/>
+                    <li>Application Engineer <small> [ June-2019 to May-2020 ]</small><br/>
                         <i>CVENT</i> <br/>
                         <ul>
                             <li><u>Languages</u> : <small>Javascript, ReactJS, NodeJS, ExpressJS, SQL Server, MySQL, PostgresSQL </small></li>
@@ -34,7 +44,6 @@ const Resume = () => (
                                         <li>worked on React based font-end of an internal toolbox</li>
                                         <li>worked on several bug fixed and prevented high sev issues </li>
                                     </ul>
-                                    .... and many more
                                 </small>
                             </li>
                         </ul>
