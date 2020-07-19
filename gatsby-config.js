@@ -15,7 +15,7 @@ module.exports = {
       src: '',
       alt: '',
     },
-    logoText: 'Krishankant \'s Blog',
+    logoText: 'krishankant_ray',
     defaultTheme: 'dark',
     postsPerPage: 5,
     showMenuItems: 3,
