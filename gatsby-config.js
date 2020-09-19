@@ -1,43 +1,44 @@
-const postCssPresetEnv = require(`postcss-preset-env`)
-const postCSSNested = require('postcss-nested')
-const postCSSUrl = require('postcss-url')
-const postCSSImports = require('postcss-import')
-const cssnano = require('cssnano')
-const postCSSMixins = require('postcss-mixins')
+const postCssPresetEnv = require(`postcss-preset-env`);
+const postCSSNested = require("postcss-nested");
+const postCSSUrl = require("postcss-url");
+const postCSSImports = require("postcss-import");
+const cssnano = require("cssnano");
+const postCSSMixins = require("postcss-mixins");
 
 module.exports = {
   siteMetadata: {
     title: `Krishankant Ray`,
     description: `This is my personal website`,
-    copyrights: '',
+    copyrights: "",
     author: `@krishankantray`,
     logo: {
-      src: '',
-      alt: '',
+      src: "",
+      alt: "",
     },
-    logoText: 'krishankant_ray',
-    defaultTheme: 'dark',
+    logoText: "Krishankant's Blog",
+    defaultTheme: "dark",
     postsPerPage: 5,
     showMenuItems: 3,
-    menuMoreText: 'Show more',
+    menuMoreText: "Show more",
     mainMenu: [
       {
-        title: 'Resume',
-        path: '/resume',
+        title: "Resume",
+        path: "/resume",
       },
       {
-        title: 'Projects',
-        path: '/showcase',
+        title: "Projects",
+        path: "/showcase",
       },
       {
-        title: 'Contact',
-        path: '/contact',
+        title: "Contact",
+        path: "/contact",
       },
-      
     ],
   },
   plugins: [
     `babel-preset-gatsby`,
+    `styled-components`,
+    `react-simple-chatbot`,
     `gatsby-plugin-react-helmet`,
     {
       resolve: `gatsby-source-filesystem`,
@@ -69,12 +70,12 @@ module.exports = {
           postCSSMixins(),
           postCSSNested(),
           postCssPresetEnv({
-            importFrom: 'src/styles/variables.css',
+            importFrom: "src/styles/variables.css",
             stage: 1,
             preserve: false,
           }),
           cssnano({
-            preset: 'default',
+            preset: "default",
           }),
         ],
       },
@@ -86,7 +87,7 @@ module.exports = {
       options: {
         plugins: [
           {
-            resolve: 'gatsby-remark-embed-video',
+            resolve: "gatsby-remark-embed-video",
             options: {
               related: false,
               noIframeBorder: true,
@@ -102,7 +103,7 @@ module.exports = {
           {
             resolve: `gatsby-remark-prismjs`,
             options: {
-              classPrefix: 'language-',
+              classPrefix: "language-",
               inlineCodeMarker: null,
               aliases: {},
               showLineNumbers: false,
@@ -136,4 +137,4 @@ module.exports = {
       },
     },
   ],
-}
+};
