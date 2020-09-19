@@ -38,6 +38,7 @@ module.exports = {
   plugins: [
     `babel-preset-gatsby`,
     `react-simple-chatbot`,
+    `styled-components`,
     `gatsby-plugin-react-helmet`,
     {
       resolve: `gatsby-source-filesystem`,
