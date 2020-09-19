@@ -37,7 +37,6 @@ module.exports = {
   },
   plugins: [
     `babel-preset-gatsby`,
-    `styled-components`,
     `react-simple-chatbot`,
     `gatsby-plugin-react-helmet`,
     {
